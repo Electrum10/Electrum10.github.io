@@ -1,0 +1,151 @@
+/*--- Configuración principal del sitio web ---*/
+.TodoContenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*background-color: #242424;*/
+  max-width: 800px;
+  text-align: center;
+  border: Solid 5px black;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+
+#FuentePrincipal {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*--- Primera parte del codigo ---*/
+.Principio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  height: calc(60vh - 20px);
+  align-items: center;
+
+  @media screen and (max-width: 705px) {
+    grid-template-columns: repeat(1, auto);
+    margin: 0px auto;
+    padding-top: 10%;
+
+    .Left {
+      grid-column: 1;
+      grid-row: 1/2;
+      padding-bottom: 10%;
+    }
+
+    .TituloPrincipalYNombre {
+      grid-column: 1;
+      grid-row: 2/3;
+      margin-right: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .FotoPerfil {
+      max-width: 60%;
+    }
+  } 
+}
+
+
+
+.FotoPerfil {
+  height: auto;
+  max-width: 80%;
+  border: solid black 7px;
+  border-radius: 100%;
+}
+
+.TituloPrincipalYNombre {
+  .Nombre {
+    font-size: 1.2em;
+    margin-bottom: -20px;
+  }
+
+  .QuienSoy {
+    font-size: 2.5em;
+    color: #bbbf32;
+
+    @media screen and (max-width: 425px) {
+      font-size: 30px;
+    }
+  }
+
+  
+}
+
+.SobreMi {
+  text-align: left;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  @media screen and (max-width: 705px) {
+    padding-top: 60%;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+.LenguajesDominados {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 50px;
+  @media screen and (max-width: 705px) {
+    padding-top: 30%;
+  }
+
+  h2 {
+    font-size: 2em;
+    text-align: left;
+  }
+  h3 {
+    font-size: 1.7em;
+  }
+
+  .FrontEnd_BackEnd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    @media screen and (max-width: 705px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 400px) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+    }
+  }
+
+  .Lenguajes {
+    display: inline-flex;
+    border: solid 2px;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 20%;
+    }
+
+    @media screen and (max-width: 705px) {
+      img {
+        width: 15%;
+      }
+    }
+  }
+}
