@@ -10,7 +10,6 @@
   margin-top: 50px;
 }
 
-
 #FuentePrincipal {
   font-family: "Radio Canada Big", sans-serif;
   font-optical-sizing: auto;
@@ -48,10 +47,8 @@
     .FotoPerfil {
       max-width: 60%;
     }
-  } 
+  }
 }
-
-
 
 .FotoPerfil {
   height: auto;
@@ -74,8 +71,6 @@
       font-size: 30px;
     }
   }
-
-  
 }
 
 .SobreMi {
@@ -148,4 +143,39 @@
       }
     }
   }
+}
+
+.Proyecto {
+  text-decoration: none;
+  color: black;
+}
+
+.gmail {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+
+  p {
+    padding-left: 20px;
+  }
+
+  a {
+    background-color: #bbbf32;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.RedesSociales {
+  display: inline-flex;
+  gap: 20px;
+  width: 2rem;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
