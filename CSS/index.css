@@ -1,8 +1,16 @@
 /*--- Configuración principal del sitio web ---*/
+body {
+  background: #FFB75E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
 .TodoContenido {
   max-width: 1200px;
   margin: 0 auto;
-  /*background-color: #242424;*/
+  background-color: #ffffff;
   max-width: 800px;
   text-align: center;
   border: Solid 5px black;
