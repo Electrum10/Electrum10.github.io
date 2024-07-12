@@ -1,11 +1,19 @@
 /*--- Configuración principal del sitio web ---*/
 body {
-  background: #FFB75E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #ffb75e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ed8f03, #ffb75e);
+  background: linear-gradient(to bottom, #ed8f03, #ffb75e);
 }
 
+header {
+  background-color: #ffb75e;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 50%;
+  border: solid 4px black;
+}
 
 .TodoContenido {
   max-width: 1200px;
