@@ -5,26 +5,6 @@ body {
   background: linear-gradient(to bottom, #ed8f03, #ffb75e);
 }
 
-header {
-  background-color: #ffb75e;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 50%;
-  border: solid 4px;
-  border-top: 0px;
-
-  @media screen and (max-width: 700px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media screen and (max-width: 430px) {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-}
-
 .TodoContenido {
   max-width: 1200px;
   margin: 0 auto;

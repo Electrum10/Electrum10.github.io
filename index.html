@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jan Gangolells - Fotógrafo, programador y SEO</title>
     <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
 
   <body>
     <div class="TodoContenido">
-      <header id="FuentePrincipal">
-        <div class="Logo">Sobre mi</div>
-        <div class="Logo">Proyectos</div>
-        <div class="Logo">Lenguajes</div>
-        <div class="Logo">Contacto</div>
+      <header>
+        <button id="menu-button">
+          Hola
+        </button>
+        <div id="menu">
+          <div>Sobre mi</div>
+          <div>Proyectos</div>
+          <div>Lenguajes</div>
+          <div>Contacto</div>
+        </div>
       </header>
-      
+
       <div class="Principio" id="FuentePrincipal">
         <div class="Left">
           <img
@@ -30,14 +40,16 @@
           />
         </div>
         <div class="TituloPrincipalYNombre">
-          <p class="Nombre">
-            Buenas, me llamo <span style="color: #9a2edb">Jan</span>
-          </p>
-          <p class="QuienSoy">
-            Y soy
-            <span style="color: #830cc4">programador FrontEnd</span> (y futuro
-            GameDev)
-          </p>
+          <div class="animate__animated animate__fadeInUp">
+            <p class="Nombre">
+              Buenas, me llamo <span style="color: #9a2edb">Jan</span>
+            </p>
+            <p class="QuienSoy">
+              Y soy
+              <span style="color: #830cc4">programador FrontEnd</span> (y futuro
+              GameDev)
+            </p>
+          </div>
         </div>
       </div>
 
@@ -163,5 +175,6 @@
         </div>
       </div>
     </div>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
