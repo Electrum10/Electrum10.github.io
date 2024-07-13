@@ -9,6 +9,7 @@ boton.addEventListener("click", () => {
         HaClicado = false;
       } else {
         lista.classList.add("Oculto");
+        lista.classList.remove("Visible");
         HaClicado = true;
       }
 })
