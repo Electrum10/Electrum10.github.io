@@ -28,18 +28,26 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
-  height: calc(60vh - 20px);
+  height: calc(40vh - 20px);
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 15%;
 
-  @media screen and (max-width: 705px) {
+
+  @media screen and (max-width: 830px) {
     grid-template-columns: repeat(1, auto);
     margin: 0px auto;
-    padding-top: 10%;
+    padding-top: 20%;
+    padding-bottom:40%;
 
     .Left {
       grid-column: 1;
       grid-row: 1/2;
       padding-bottom: 10%;
+      max-width: 600px;
+      margin: 0 auto;
     }
 
     .TituloPrincipalYNombre {
