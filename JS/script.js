@@ -14,3 +14,11 @@ boton.addEventListener("click", () => {
       }
 })
 
+window.addEventListener("resize", () => {
+  const ancho = window.innerWidth;
+  if (ancho >= 430) {
+    lista.classList.remove("Oculto");
+    lista.classList.add("Visible");
+    HaClicado = false;
+  }
+});
