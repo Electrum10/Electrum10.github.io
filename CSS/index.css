@@ -194,11 +194,23 @@ body {
   }
 }
 
+
 .RedesSociales {
-  display: inline-flex;
-  gap: 20px;
-  width: 2rem;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 25%;
+  margin: 0 auto;
+  gap: 10px;
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: repeat(3, 1fr);
+    width: 35%;
+  }
+
+  @media screen and (max-width: 420px) {
+    grid-template-columns: repeat(2, 1fr);
+    width: 35%;
+    gap: 15px;
+  }
+
 }
