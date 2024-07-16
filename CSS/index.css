@@ -159,6 +159,16 @@ body {
   }
 }
 
+.Lenguajes:hover {
+  transition-duration: 0.3s;
+  background-color: #f7a737b7;
+  
+  p {
+    animation: fadeOut 0.3s;
+    opacity: 0;
+  }
+}
+
 .Proyecto {
   text-decoration: none;
   color: black;
