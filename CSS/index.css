@@ -9,6 +9,21 @@ h2 {
   padding-top: 50px;
 }
 
+.ElegirNicho {
+  text-align: center;
+  align-items: center;
+
+  button {
+    padding: 10px;
+    color: rgb(111, 112, 101);
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+}
+
 .TodoContenido {
   max-width: 800px;
   margin: 0 auto;
@@ -44,6 +59,7 @@ h2 {
     margin: 0px auto;
     padding-top: 20%;
     padding-bottom:40%;
+    
 
     .Left {
       grid-column: 1;
@@ -90,17 +106,13 @@ h2 {
   }
 }
 
-.SobreMi {
+.SobreMiProgramación {
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
 
   @media screen and (max-width: 705px) {
     padding-top: 5%;
-  }
-
-  h2 {
-    font-size: 2em;
   }
 
   p {
@@ -164,11 +176,6 @@ h2 {
 .Lenguajes:hover {
   transition-duration: 0.3s;
   background-color: #f7a737b7;
-  
-  p {
-    animation: fadeOut 0.3s;
-    opacity: 0;
-  }
 }
 
 .TodosLosProyectos {

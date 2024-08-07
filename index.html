@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jan Gangolells - Fotógrafo, programador y SEO</title>
     <link rel="stylesheet" href="/CSS/index.css" />
-    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="/CSS/fotografia.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
@@ -17,9 +16,14 @@
     />
   </head>
 
-  <body>
+  <body id="FuentePrincipal">
+    <div class="ElegirNicho">
+    <button id="BotónProgramacion">Programación</button>
+    <button id="BotónFotografia">Fotografia</button>
+    <button id="BotónSEO">SEO</button>
+    </div>
     <div class="TodoContenido">
-      <div class="Principio" id="FuentePrincipal">
+      <div class="Principio">
         <div class="animate__animated animate__fadeInUp">
         <div class="Left" >
           <img
@@ -30,22 +34,28 @@
         </div>
       </div>
         <div class="TituloPrincipalYNombre">
-          <div class="animate__animated animate__fadeInUp">
+          <div>
             <p class="Nombre">
               Buenas, me llamo <span style="color: #9a2edb">Jan</span>
             </p>
-            <p class="QuienSoy">
+            <p class="QuienSoy animate__animated animate__zoomIn" id="QuienSoyProgramación">
               Y soy
               <span style="color: #830cc4">programador FrontEnd</span> (y futuro
               GameDev)
             </p>
+            <p class="QuienSoy animate__animated animate__zoomIn" id="QuienSoyFotografia">
+              Y me considero un <span style="color: #830cc4">fotógrafo apasionado</span>
+            </p>
+            <p class="QuienSoy animate__animated animate__zoomIn" id="QuienSoySEO">
+              Y <span style="color: #830cc4">Posiciono paginas web</span>
+            </p>
           </div>
         </div>
       </div>
-
-      <div class="SobreMi" id="FuentePrincipal">
+      <div id="Programacion">
+      <div class="SobreMiProgramación animate__animated animate__zoomIn">
         <h2>Sobre mi</h2>
-        <p class="animate__animated animate__zoomIn">
+        <p>
           Buenas.<br /><br />
           Soy Jan Gangolells Maldonado <strong><i>(Alias: Aki)</i></strong
           >, un joven programador con unos 2 años de experiencia en el mundo del
@@ -68,7 +78,7 @@
         </p>
       </div>
 
-      <div class="LenguajesDominados" id="FuentePrincipal">
+      <div class="LenguajesDominados">
         <h2>Lenguajes Dominados</h2>
         <h3>FrontEnd</h3>
         <div class="FrontEnd_BackEnd">
@@ -147,6 +157,7 @@
             <p>Horoscopo automatico con integración IA</p>
           </div>
         </div>
+      </div>
 
         <h2>Contacto</h2>
         <div class="gmail">
@@ -167,6 +178,17 @@
         <a href="https://github.com/Electrum10">
           <img src="/SVG/github.svg" alt="GitHub" />
         </a>
+        </div>
+      </div>
+      <div id="Fotografia">
+        <div class="SobreMiFoto">
+          <div>
+            <h2>Sobre mi</h2>
+            <p>Hola</p>
+          </div>
+          <div>
+            <img src="/Imagenes/FotoSobreMiFotografia.webp" alt="Hola :)">
+          </div>
         </div>
       </div>
     </div>

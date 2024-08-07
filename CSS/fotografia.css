@@ -1,0 +1,29 @@
+.SobreMiFoto {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    text-align: left;
+    align-items: center;
+}
+
+/* Texto sobre mi */
+.SobreMiFoto:first-child {
+    padding-left: 5%;
+    h2 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: large;
+    }
+}
+
+.SobreMiFoto:last-child {
+    img{
+        width: 90%;
+        border: 0px;
+        border-radius: 30px;
+    }
+   
+}
